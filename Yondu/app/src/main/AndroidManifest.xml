@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yondu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Yondu33"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Animal2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FileActivity">
+
+        </activity>
+        <activity android:name=".CustomDialogActivity"></activity>
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ListActivity" />
+        <activity
+            android:name=".First1"
+            android:label="@string/title_activity_first1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Second" />
+        <activity android:name=".First" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <!-- 마진과 패딩 -->
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="#0020FC"
+        android:textStyle="bold"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아메리카노" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit1"
+        android:background="#F093AE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카페라떼" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit2"
+        android:background="#F093AE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="녹차라떼" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit3"
+        android:background="#F093AE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 할인카드 있음(10% 할인)" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="총 금액 계산" />
+
+
+
+</LinearLayout>
